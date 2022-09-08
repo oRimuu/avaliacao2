@@ -1,0 +1,83 @@
+nav ul{
+    padding: 0;
+    margin: 0 0 0 30%;
+    list-style: none;
+}
+
+nav{
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    overflow: auto;
+    position: fixed;
+}
+
+li{
+    float: left;
+    text-transform: uppercase;
+}
+
+li a:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+.space li a:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+.otherspace li a:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+li a{
+    width: 4vw;
+    display: block;
+    padding: 30px 15px;
+    margin-top: 0;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    color:white;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: underline 0.15em rgba(0, 0, 0,0);
+    transition: text-decoration-color 300ms;
+}
+
+.space li a{
+    width: 4.8vw;
+    display: block;
+    padding: 30px 15px;
+    margin-top: 0;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    color:white;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: underline 0.15em rgba(0, 0, 0,0);
+    transition: text-decoration-color 300ms;
+}
+
+.otherspace li a{
+    display: block;
+    padding: 30px -500px;
+    margin-top: 0;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    color:white;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: underline 0.15em rgba(0, 0, 0,0);
+    transition: text-decoration-color 300ms;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 15vw;
+    letter-spacing: 0px;
+    position: fixed;
+}
+
+.logo img{
+    width:12vw;
+    height:3vh;
+}

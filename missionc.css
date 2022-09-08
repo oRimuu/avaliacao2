@@ -1,0 +1,132 @@
+.missioncontainerone{
+    min-height: 100vh;
+    height: 100%;
+    background-image: url("./spacexbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.missioncontainertwo{
+    min-height: 100vh;
+    height: 100%;
+    background-image: url(./bg-falcon9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 0;
+}
+
+.missioncontainnerthree{
+    min-height: 200vh;
+    height: 100%;
+    background-image: url(./astronaut.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 0;
+}
+.bottom{
+    text-align: left;
+    padding-top: 65vh;
+    padding-left: 10vw;
+    margin: 0;
+}
+
+.bottom h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    padding-top: -20px;
+    margin: 0;
+}
+
+.bottom h5{
+    padding-top: 90vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    padding-top: -20px;
+    margin: 0;
+}
+
+.bottom h3{
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+.bottom button{
+    border-color:white;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding: 1.2rem 2.5rem;
+    border: 0.15rem solid white;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.bottom button:hover{
+    color: black;
+}
+
+.bottom button::after{
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    padding: 3rem 0;
+    display: block;
+}
+
+.bottom button[class^="slide"]::after {
+    transition: all 0.35s;
+}
+
+.bottom button[class^="slide"]:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.35s;
+}
+
+.bottom button.slide_from_top::after {
+    top: -100%;
+    bottom: 100%;
+}
+
+.center{
+    padding-top: 50vh;
+    padding-left: 20vw;
+    margin: 0;
+}
+.center h3{
+    color: white;
+    padding-left: 20vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.center h4{
+    color: white;
+    padding-left: 19vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin:0;
+    padding-right: vw;
+}
